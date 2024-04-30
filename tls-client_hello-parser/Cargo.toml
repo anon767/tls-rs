@@ -5,13 +5,13 @@ authors = ["vkill <vkill.net@gmail.com>"]
 edition = "2021"
 description = "TLS ClientHello parser"
 license = "Apache-2.0 OR MIT"
-repository = "https://github.com/bk-rs/tls-rs"
-homepage = "https://github.com/bk-rs/tls-rs"
+repository = "https://github.com/anon767/tls-rs"
+homepage = "https://github.com/anon767/tls-rs"
 documentation = "https://docs.rs/tls-client_hello-parser"
 keywords = ["TLS", "ClientHello"]
 categories = []
 readme = "README.md"
 
 [dependencies]
-rustls = { version = "0.20", default-features = false }
+rustls = { version = "0.21", default-features = false }
 webpki = { version = "0.22", default-features = false, features = ["alloc"] }
